@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(24, 37, 70, 0.741),rgba(212, 212, 212, 0)), url(images/Untitled\ design.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: "Cal Sans", sans-serif;
+}
+nav{
+    display: flex;
+    padding: 3% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 200px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: azure;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::before{
+    content: '';
+    width: 0%;
+    height: 1px;
+    background: #e88354;
+    display: block;
+    margin: auto;
+    transition: 0.4s;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #e88354;
+    display: block;
+    margin: auto;
+    transition: 0.4s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+    margin: auto;
+}
+.nav-links ul li:hover::before{
+    width: 100%;
+    margin: auto;
+}
+.text-box{
+    width: 90%;
+    color: beige;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    
+}
+.text-box h1{
+    font-size: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+.text-box p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin: 15px 0 40px;
+    font-size: 16px;
+    color: white;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: azure;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: #8a8787;
+    position: relative;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.hero-btn:hover{
+    border: 1px solid #e88354;
+    padding: 12px 40px;
+    background: #e88354;
+}
+nav .fa-solid{
+    display: none;
+}

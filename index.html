@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HumaRumil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstarpcdn.com/font-awesome/4.7.0/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/b5ec897a3c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+
+        <nav>
+            <a href="index.html"><img src="images/logo4.png"></a>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="aboutUs.html">ABOUT</a></li>
+                    <li><a href="">EVENT</a></li>
+                    <li><a href="">GALLERY</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>HUMA RUMIL</h1>
+            <p>
+                Berdiri dengan semangat melestarikan budaya Indonesia
+            </p>
+            <a class="hero-btn" href="aboutUs.html">pelajari lebih lanjut</a>
+        </div>
+
+    </section>
+    <section class="content">
+
+        <h1>Seni Membentuk Karakter, Mendorong Masa Depan</h1>
+        <p>
+            Di Huma Rumil, kami percaya bahwa seni bukan sekadar hiburan—ia adalah alat pembentuk jiwa. Melalui seni, anak-anak belajar disiplin, empati, keberanian, dan ekspresi diri. Setiap tarian, gambar, dan peran yang mereka mainkan bukan hanya menciptakan karya indah, tetapi juga membangun karakter yang kuat dan penuh makna. Karena dari karakter yang kokoh, lahirlah generasi yang siap mengukir masa depan dengan kreativitas dan nilai budaya yang luhur.
+        </p>
+        <div class="row">
+            <div class="content-col">
+                <h2>TARI</h2>
+                <img src="images/pola-lantai-tari-saman-lengkap-dengan-fungsi-dan-penjelasannya90.png">
+                <h3>Tari bukan sekadar gerakan—tari adalah bahasa jiwa dan warisan budaya.</h3>
+                <p>
+                    Melalui irama dan gerak, tari mengajarkan disiplin, kepekaan, dan kepercayaan diri. Setiap langkah menyimpan nilai sejarah dan tradisi yang membentuk jati diri bangsa. Di Huma Rumil, kami mengenalkan tari sebagai sarana edukatif untuk mengembangkan kreativitas anak-anak sekaligus menanamkan cinta pada budaya Indonesia.
+                </p>
+
+            </div>
+            <div class="content-col">
+                <h2>TEATER</h2>
+                <img src="images/teater.jpg">
+                <h3>Teater adalah cermin kehidupan dan ruang pembelajaran tanpa batas.</h3>
+                <p>
+                    Melalui peran dan dialog, anak-anak belajar memahami emosi, berpikir kritis, dan bekerja sama. Teater melatih keberanian untuk tampil, keterampilan berkomunikasi, serta empati terhadap orang lain. Di Huma Rumil, teater menjadi media ekspresif untuk menumbuhkan karakter, kreativitas, dan kecintaan terhadap budaya melalui cerita yang hidup dan penuh makna.
+                </p>
+                
+            </div>
+            <div class="content-col">
+                <h2>GAMBAR</h2>
+                <img src="images/gambar.jpg">
+                <h3>Menggambar adalah langkah awal mengekspresikan imajinasi dan mengenal dunia.</h3>
+                <p>   
+                    Melalui garis dan warna, anak-anak belajar menuangkan ide, melatih fokus, dan mengembangkan kreativitas visual. Menggambar bukan hanya soal estetika, tapi juga cara berpikir, memecahkan masalah, dan membentuk identitas diri. Di Huma Rumil, kami menjadikan kegiatan menggambar sebagai jembatan untuk mengasah bakat, menumbuhkan kepercayaan diri, dan mengenalkan nilai budaya dalam bentuk yang menyenangkan.    
+                </p>
+                
+            </div>
+        </div>
+
+    </section>
+
+    <section class="location">
+
+        <h1>Lokasi Kami</h1>
+        <p>
+            Huma Rumil berlokasi di lingkungan yang asri dan ramah anak, memberikan ruang aman dan nyaman untuk belajar, berkarya, dan berekspresi.
+        </p>
+        <div class="row">
+            <div class="location-col">
+                <img src="images/london.png">
+            </div>
+        </div>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right= "-200px";
+        }
+    </script>
+</body>
+</html>
